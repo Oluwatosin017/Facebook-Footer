@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+.first-sectioning{
+    background-color: #dcdcdc;
+}
+img{
+    width: 45px;
+    height: 40px;
+    align-self: center;
+    border: 3px solid white;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 6px;
+}
+.side-div {
+    margin-top: 28px;
+    margin-bottom: 12px;
+    margin-left: -10px;
+}
+.user-name{
+    align-self: baseline;
+    margin-bottom: -2px;
+}
+#text{
+    display: flex;
+    position: inherit;   
+    margin-left: 5px; 
+    font-size: 18px;
+}
+ul {
+    margin: 0;
+    padding-left: 12px;
+    line-height: 140%;
+    list-style-type: none;
+}
+#items{
+    display: flex;
+    flex-direction: column;
+}
+.parent-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.second-sectioning {
+    background-color: grey;
+    background-size: 500px;
+    height: 180px;
+}
+.back-to-top {
+    margin-bottom: 15px;
+}
+.btn {
+    border: 1px solid white;
+    width: 90%;
+    height: 25px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(234, 248, 255);
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    border: 1px solid blue;
+    border-radius: 3px;   
+    height: 25px;
+    width: 75px;
+    position: relative;
+    bottom: 55px;
+    right: 2px;
+    left: 223px;
+}
+.nav-1, .nav-2 {
+    line-height: 150%;
+}
+.form-control {
+    width: 100%;
+}
+.logo {
+    width: 10%;
+}
+.form-control img {
+    height: 22px;
+    width: 23px;
+    position: relative;
+    bottom: 45px;
+    left: 10px;
+}
+.search-text{
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    border: 1px solid white;
+}
+.profile-links{
+    display: flex;
+    justify-content: space-between;
+}
+.primary_navigation {
+    display: flex;
+    margin-top: -45px;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+/* I was trying to make it responsive for mobile L with the dimensions - 425 by 792*/
+@media (min-width: 400px) {
+    button{
+        margin-left: 40px;
+    }
+}
+/* Tablet was made responsive here with dimensions - 768 by 1458 */
+@media (min-width: 700px){
+    .first-sectioning{
+        width: 100%;
+    }
+    img{
+        width: 150px;
+        height: 130px;
+        border: 8px solid white;
+    }
+    .user-name{
+        align-self: baseline;
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+    #text{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .side-div{
+        margin-left: 2px;
+    }
+    .profile-links{
+        font-size: 30px;
+    }
+    button{
+        bottom: 103px;
+        margin-left: 345px;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        height: 45px;
+        left: 160px;
+        width: 135px;
+        margin-top: 50px;
+        
+    }
+    .form-control img{
+        top: -80px;
+        bottom: 150px;
+        height: 50px;
+        width: 55px;
+    }
+    .search-text{
+        height: 60px;
+        width: 90%;
+        margin-top: 25px;
+    }
+    .second-sectioning{
+        height: 310px;
+    }
+    .primary_navigation{
+        font-size: 30px;
+        margin-top: -85px;
+    }
+    .back-to-top{
+        font-size: 25px;
+        margin-bottom: 80px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .btn{
+        margin-bottom: 90px;
+        top: -50px;
+        height: 40px;
+        width: 98%;
+    }
+    .nav-2{
+        margin-right: 80px;
+    }
+}
+/* This footer is not responsive for laptop yet*/
