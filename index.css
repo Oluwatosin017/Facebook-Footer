@@ -85,7 +85,7 @@ button{
     position: relative;
     bottom: 55px;
     right: 2px;
-    left: 218px;
+    left: 220px;
 }
 .nav-1, .nav-2 {
     line-height: 150%;
@@ -125,7 +125,7 @@ button{
 /* I was trying to make it responsive for mobile L with the dimensions - 425 by 792*/
 @media (min-width: 400px) {
     button{
-        margin-left: 40px;
+        margin-right: 10PX;
     }
 }
 /* Tablet was made responsive here with dimensions - 768 by 1458 */
